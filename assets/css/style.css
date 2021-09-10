@@ -1,0 +1,114 @@
+/*corporate colors*/
+:root {
+
+--primary-color : #202E3D;
+--second-color : #2A517A;
+--third-color : #186D7A;
+--title-color : #31C7A0;
+--fiv-color : #0F7A5E;
+--gray-color: rgb(187, 214, 213);
+
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-style: var(--title-color);
+ 
+}
+body{
+  background-color: white);
+}
+/*-Header*/
+header{
+  background-color: var(--gray-color);
+
+}
+
+/*Menu*/
+.menu-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%; 
+}
+
+.main-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  
+}
+
+.main-menu ul{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  padding-left: 5px;
+}
+
+.main-menu ul li{
+  padding-left: 10px; 
+}
+
+
+/*-- Banner*/
+  .banner-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--second-color);
+    }
+    .banner-container {
+      display: flex;
+           
+     }
+    .banner-section p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+    
+
+      
+      }
+/*--- Services*/
+    .services-section{
+      justify-content: center;
+      background-color: var(--third-color);
+      } 
+      
+    .services-section h2 {
+   width: 100%;
+   text-align: center;
+   
+              
+        }
+
+      .content-services{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 300px;
+         
+       background-color: var(--gray-color);
+       
+  }
+  .service-item{
+    text-align: center;
+   padding-top: 5px;
+        
+}
+
+
+footer{ 
+  position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+background-color: var(--primary-color);
+
+}
