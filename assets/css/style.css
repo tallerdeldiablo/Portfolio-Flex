@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   font-style: var(--title-color);
- 
+
 }
 body{
   background-color: white);
@@ -31,14 +31,14 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%; 
+  padding: 30px 10%;
 }
 
 .main-menu{
   display: flex;
   justify-content: space-between;
   align-items:flex-end;
-  
+
 }
 
 .main-menu ul{
@@ -49,7 +49,7 @@ header{
 }
 
 .main-menu ul li{
-  padding-left: 10px; 
+  padding-left: 10px;
 }
 
 
@@ -61,28 +61,28 @@ header{
     }
     .banner-container {
       display: flex;
-           
+
      }
     .banner-section p{
       display: flex;
       justify-content: center;
       align-items: center;
       height: 400px;
-    
 
-      
+
+
       }
 /*--- Services*/
     .services-section{
       justify-content: center;
       background-color: var(--third-color);
-      } 
-      
+      }
+
     .services-section h2 {
    width: 100%;
    text-align: center;
-   
-              
+
+
         }
 
       .content-services{
@@ -90,18 +90,18 @@ header{
         justify-content: space-around;
         align-items: center;
         height: 300px;
-         
+
        background-color: var(--gray-color);
-       
+
   }
   .service-item{
     text-align: center;
    padding-top: 5px;
-        
+
 }
 
-
-footer{ 
+/*footer*/
+footer{
   position: fixed;
     height: 50px;
     bottom: 0px;
@@ -112,3 +112,62 @@ footer{
 background-color: var(--primary-color);
 
 }
+/*Mobile*/
+
+
+  @media screen and (max-width: 768px) {
+    .menu-container {
+      flex-direction: column;
+
+          justify-content: space-around;
+          align-items: center;
+
+    }
+  }
+
+@media screen and (max-width: 768px) {
+  main,
+  .banner-section {
+    flex-direction: column;
+
+        justify-content: space-around;
+        align-items: center;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .title{
+
+    height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-section p{
+
+    height: 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+  .image{
+
+    height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+.content-services {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 20px;
+
+  }
+  }
+
+ 
