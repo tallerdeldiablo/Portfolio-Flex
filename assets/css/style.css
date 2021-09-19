@@ -102,7 +102,7 @@ header{
 
 /*footer*/
 footer{
-  position: fixed;
+  position: relative;
     height: 50px;
     bottom: 0px;
     left: 0px;
